@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ni0an8ju2wh4"
+path="res://.godot/imported/Lost in the Dessert.wav-7716cbefb6a64b87139ae9d07ce21f80.sample"
+
+[deps]
+
+source_file="res://src/audio/music/Lost in the Dessert.wav"
+dest_files=["res://.godot/imported/Lost in the Dessert.wav-7716cbefb6a64b87139ae9d07ce21f80.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://bp2h4iwm3brk3"]
+
+[ext_resource type="Script" path="res://src/actors/dayController.gd" id="1_ifwke"]
+[ext_resource type="Theme" uid="uid://droqp0ltmdfjd" path="res://src/themes/offerTheme.tres" id="2_18qnl"]
+
+[sub_resource type="Gradient" id="Gradient_7m7if"]
+interpolation_mode = 2
+colors = PackedColorArray(0.215686, 0.113725, 0.34902, 1, 1, 1, 0.341176, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_r7y48"]
+gradient = SubResource("Gradient_7m7if")
+width = 10
+height = 10
+fill = 1
+fill_from = Vector2(0.5, 1)
+fill_to = Vector2(0, 0)
+
+[node name="dayController" type="Node"]
+script = ExtResource("1_ifwke")
+steps = 10.0
+
+[node name="ColorRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_r7y48")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -10
+follow_viewport_enabled = true
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 10.0
+offset_right = 50.0
+offset_bottom = 59.0
+theme = ExtResource("2_18qnl")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

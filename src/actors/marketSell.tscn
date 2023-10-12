@@ -1,0 +1,125 @@
+[gd_scene load_steps=8 format=3 uid="uid://d0ndagqn1f2f6"]
+
+[ext_resource type="Script" path="res://src/actors/marketSell.gd" id="1_i18oc"]
+[ext_resource type="Theme" uid="uid://rahq5j862i2w" path="res://src/themes/invTheme.tres" id="2_ljp6q"]
+[ext_resource type="Theme" uid="uid://dgogs2rarh3g1" path="res://src/themes/merchant.tres" id="3_1caci"]
+
+[sub_resource type="Gradient" id="Gradient_6uyb6"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(0.70366, 0.603024, 0.486031, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_56f8v"]
+gradient = SubResource("Gradient_6uyb6")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7rlob"]
+texture = SubResource("GradientTexture1D_56f8v")
+
+[sub_resource type="Theme" id="Theme_6wqer"]
+Panel/styles/panel = SubResource("StyleBoxTexture_7rlob")
+
+[node name="marketSell" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = SubResource("Theme_6wqer")
+script = ExtResource("1_i18oc")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VScrollBar" type="VScrollBar" parent="Panel"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -8.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+clip_contents = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 210
+theme_override_constants/v_separation = 310
+
+[node name="Continue" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -64.0
+offset_top = -38.0
+offset_right = 64.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("2_ljp6q")
+text = "sleep the night"
+
+[node name="merchantPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_1caci")
+
+[node name="VBox" type="VBoxContainer" parent="merchantPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="merchantPanel/VBox"]
+layout_mode = 2
+text = "pick a
+m	erchant"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="value_changed" from="Panel/VScrollBar" to="." method="_on_v_scroll_bar_value_changed"]
+[connection signal="button_up" from="Panel/Continue" to="." method="continueHit"]

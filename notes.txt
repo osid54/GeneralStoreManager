@@ -1,0 +1,19 @@
+TODO:
+	- player actions:
+		sell to player
+			reuse market sell, flip horizontally
+		player does thing (fish, mine, farm, forage, explore, fight)
+	- randomized daily merchants
+		merchants offer goods in morning?
+	- randomized start:
+		treasure chest, random 10ish items
+		base 5000? gold
+	- import all items:
+		make spreadsheet --> json
+		rebalance economy
+	- UI:
+		offers
+		market sell
+	- relationships
+		increase with sales with merchants
+		increase on good sales/buys with players

@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bb8cxip5v2pe3"
+path="res://.godot/imported/dayGradientAdjusted.png-ee3c610c8a90a47c3c072785c74ac347.image"
+
+[deps]
+
+source_file="res://src/sprites/dayGradientAdjusted.png"
+dest_files=["res://.godot/imported/dayGradientAdjusted.png-ee3c610c8a90a47c3c072785c74ac347.image"]
+
+[params]
+

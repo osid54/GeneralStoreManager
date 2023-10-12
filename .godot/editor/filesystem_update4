@@ -1,0 +1,4 @@
+res://src/scenes/main.tscn
+res://src/actors/offer.tscn
+res://src/actors/dayController.tscn
+res://src/actors/typeData.gd

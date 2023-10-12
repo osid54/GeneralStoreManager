@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7507tgyh3aeg"
+path="res://.godot/imported/Forever Lost.wav-c1e56428a126c2f619b8b3bc04a38ca8.sample"
+
+[deps]
+
+source_file="res://src/audio/music/Forever Lost.wav"
+dest_files=["res://.godot/imported/Forever Lost.wav-c1e56428a126c2f619b8b3bc04a38ca8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

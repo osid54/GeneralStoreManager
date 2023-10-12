@@ -1,0 +1,130 @@
+[gd_scene load_steps=6 format=3 uid="uid://i4rt1sd5kw1n"]
+
+[ext_resource type="Theme" uid="uid://rahq5j862i2w" path="res://src/themes/invTheme.tres" id="1_kgb04"]
+[ext_resource type="Script" path="res://src/actors/inventoryBox.gd" id="2_wdukd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5q5y"]
+bg_color = Color(0.658824, 0.490196, 0.415686, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.270588, 0.137255, 0.0784314, 1)
+
+[sub_resource type="Theme" id="Theme_cai3q"]
+Panel/styles/panel = SubResource("StyleBoxFlat_i5q5y")
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_scot7"]
+
+[node name="InvBox" type="Control" groups=["invBox"]]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_kgb04")
+script = ExtResource("2_wdukd")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -150.0
+offset_right = 100.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_cai3q")
+
+[node name="VBox" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -90.0
+offset_top = -253.0
+offset_right = 90.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 2
+
+[node name="itemName" type="Label" parent="Panel/VBox"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "itemName"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="itemImage" type="TextureRect" parent="Panel/VBox"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = SubResource("PlaceholderTexture2D_scot7")
+expand_mode = 4
+stretch_mode = 5
+
+[node name="HBox" type="HBoxContainer" parent="Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="amountEditor" type="LineEdit" parent="Panel/VBox/HBox"]
+layout_mode = 2
+size_flags_horizontal = 4
+placeholder_text = "amt"
+alignment = 1
+max_length = 3
+context_menu_enabled = false
+shortcut_keys_enabled = false
+middle_mouse_paste_enabled = false
+select_all_on_focus = true
+
+[node name="amountMax" type="Label" parent="Panel/VBox/HBox"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "aM"
+vertical_alignment = 1
+
+[node name="VSeparator" type="VSeparator" parent="Panel/VBox/HBox"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="pricePer" type="Label" parent="Panel/VBox/HBox"]
+layout_mode = 2
+size_flags_horizontal = 8
+text = "pP"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="sellButton" type="Button" parent="Panel/VBox"]
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+text = "sell"
+
+[node name="HSeparator" type="HSeparator" parent="Panel/VBox"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 7)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[connection signal="focus_exited" from="Panel/VBox/HBox/amountEditor" to="." method="editFocusGone"]
+[connection signal="text_changed" from="Panel/VBox/HBox/amountEditor" to="." method="editorTextChanged"]
+[connection signal="text_submitted" from="Panel/VBox/HBox/amountEditor" to="." method="editorEnter"]
+[connection signal="button_up" from="Panel/VBox/sellButton" to="." method="onSellUp"]
+[connection signal="mouse_entered" from="Panel/VBox/sellButton" to="." method="sellHover"]
+[connection signal="mouse_exited" from="Panel/VBox/sellButton" to="." method="sellLeave"]

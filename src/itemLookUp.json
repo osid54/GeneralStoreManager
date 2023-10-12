@@ -1,0 +1,342 @@
+[
+		{
+				"itemName": "copper ore",
+				"type": "ore",
+				"valueXPer": 10
+		},
+		{
+				"itemName": "iron ore",
+				"type": "ore",
+				"valueXPer": 25
+		},
+		{
+				"itemName": "gold ore",
+				"type": "ore",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "copper ingot",
+				"type": "ore",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "iron ingot",
+				"type": "ore",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "gold ingot",
+				"type": "ore",
+				"valueXPer": 100
+		},
+		{
+				"itemName": "ruby",
+				"type": "ore",
+				"valueXPer": 250
+		},
+		{
+				"itemName": "sapphire",
+				"type": "ore",
+				"valueXPer": 250
+		},
+		{
+				"itemName": "emerald",
+				"type": "ore",
+				"valueXPer": 250
+		},
+		{
+				"itemName": "sand",
+				"type": "ore",
+				"valueXPer": 1
+		},
+		{
+				"itemName": "dirt",
+				"type": "ore",
+				"valueXPer": 2
+		},
+		{
+				"itemName": "stone",
+				"type": "ore",
+				"valueXPer": 3
+		},
+		{
+				"itemName": "stick",
+				"type": "craft",
+				"valueXPer": 5
+		},
+		{
+				"itemName": "wood",
+				"type": "craft",
+				"valueXPer": 10
+		},
+		{
+				"itemName": "birch wood",
+				"type": "craft",
+				"valueXPer": 15
+		},
+		{
+				"itemName": "paper",
+				"type": "craft",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "leather",
+				"type": "craft",
+				"valueXPer": 25
+		},
+		{
+				"itemName": "glass",
+				"type": "craft",
+				"valueXPer": 30
+		},
+		{
+				"itemName": "trout",
+				"type": "fish",
+				"valueXPer": 10
+		},
+		{
+				"itemName": "salmon",
+				"type": "fish",
+				"valueXPer": 30
+		},
+		{
+				"itemName": "snapper",
+				"type": "fish",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "apple",
+				"type": "farming",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "orange",
+				"type": "farming",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "banana",
+				"type": "farming",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "plum",
+				"type": "farming",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "peach",
+				"type": "farming",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "pear",
+				"type": "farming",
+				"valueXPer": 20
+		},
+		{
+				"itemName": "white egg",
+				"type": "farming",
+				"valueXPer": 30
+		},
+		{
+				"itemName": "brown egg",
+				"type": "farming",
+				"valueXPer": 30
+		},
+		{
+				"itemName": "milk",
+				"type": "farming",
+				"valueXPer": 35
+		},
+		{
+				"itemName": "cheese",
+				"type": "farming",
+				"valueXPer": 60
+		},
+		{
+				"itemName": "green drop",
+				"type": "magic",
+				"valueXPer": 10
+		},
+		{
+				"itemName": "green slime",
+				"type": "magic",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "green sludge",
+				"type": "magic",
+				"valueXPer": 90
+		},
+		{
+				"itemName": "blue drop",
+				"type": "magic",
+				"valueXPer": 30
+		},
+		{
+				"itemName": "blue slime",
+				"type": "magic",
+				"valueXPer": 70
+		},
+		{
+				"itemName": "blue sludge",
+				"type": "magic",
+				"valueXPer": 110
+		},
+		{
+				"itemName": "red drop",
+				"type": "magic",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "red slime",
+				"type": "magic",
+				"valueXPer": 90
+		},
+		{
+				"itemName": "red sludge",
+				"type": "magic",
+				"valueXPer": 130
+		},
+		{
+				"itemName": "juice",
+				"type": "food",
+				"valueXPer": 35
+		},
+		{
+				"itemName": "apple juice",
+				"type": "food",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "banana juice",
+				"type": "food",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "black juice",
+				"type": "food",
+				"valueXPer": 70
+		},
+		{
+				"itemName": "blueberry juice",
+				"type": "food",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "orange juice",
+				"type": "food",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "pale juice",
+				"type": "food",
+				"valueXPer": 70
+		},
+		{
+				"itemName": "peach juice",
+				"type": "food",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "plum juice",
+				"type": "food",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "royal juice",
+				"type": "food",
+				"valueXPer": 155
+		},
+		{
+				"itemName": "chalice",
+				"type": "treasure",
+				"valueXPer": 100
+		},
+		{
+				"itemName": "charm",
+				"type": "treasure",
+				"valueXPer": 125
+		},
+		{
+				"itemName": "copper coin",
+				"type": "treasure",
+				"valueXPer": 50
+		},
+		{
+				"itemName": "crown",
+				"type": "treasure",
+				"valueXPer": 500
+		},
+		{
+				"itemName": "earrings",
+				"type": "treasure",
+				"valueXPer": 80
+		},
+		{
+				"itemName": "gold coin",
+				"type": "treasure",
+				"valueXPer": 250
+		},
+		{
+				"itemName": "golden apple",
+				"type": "treasure",
+				"valueXPer": 300
+		},
+		{
+				"itemName": "golden feather",
+				"type": "treasure",
+				"valueXPer": 300
+		},
+		{
+				"itemName": "golden squirrel",
+				"type": "treasure",
+				"valueXPer": 300
+		},
+		{
+				"itemName": "locket",
+				"type": "treasure",
+				"valueXPer": 150
+		},
+		{
+				"itemName": "lute",
+				"type": "treasure",
+				"valueXPer": 75
+		},
+		{
+				"itemName": "necklace",
+				"type": "treasure",
+				"valueXPer": 175
+		},
+		{
+				"itemName": "relic",
+				"type": "treasure",
+				"valueXPer": 300
+		},
+		{
+				"itemName": "ring",
+				"type": "treasure",
+				"valueXPer": 70
+		},
+		{
+				"itemName": "silver coin",
+				"type": "treasure",
+				"valueXPer": 125
+		},
+		{
+				"itemName": "tiara",
+				"type": "treasure",
+				"valueXPer": 295
+		},
+		{
+				"fish": "STEEL_BLUE",
+				"ore": "PERU",
+				"craft": "ROSY_BROWN",
+				"magic": "MEDIUM_VIOLET_RED",
+				"food": "TOMATO",
+				"farming": "DARK_OLIVE_GREEN",
+				"animal": "SIENNA",
+				"treasure": "GOLD"
+		}
+]

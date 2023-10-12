@@ -1,0 +1,103 @@
+[gd_scene load_steps=4 format=3 uid="uid://6hlf7xrrpqxr"]
+
+[ext_resource type="Script" path="res://src/actors/offer.gd" id="1_07llw"]
+[ext_resource type="Theme" uid="uid://droqp0ltmdfjd" path="res://src/themes/offerTheme.tres" id="2_ynn1b"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_oy8ml"]
+
+[node name="Offer" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_07llw")
+tweenSpeed = 0.5
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -163.5
+offset_top = -226.5
+offset_right = 163.5
+offset_bottom = 226.5
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Panel" type="Panel" parent="VBox"]
+custom_minimum_size = Vector2(400, 400)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+
+[node name="VBox" type="VBoxContainer" parent="VBox/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="from" type="Label" parent="VBox/Panel/VBox"]
+layout_mode = 2
+theme = ExtResource("2_ynn1b")
+text = "from"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="itemName" type="Label" parent="VBox/Panel/VBox"]
+layout_mode = 2
+theme = ExtResource("2_ynn1b")
+text = "itemName"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="itemImage" type="TextureRect" parent="VBox/Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = SubResource("PlaceholderTexture2D_oy8ml")
+stretch_mode = 5
+
+[node name="pricePer" type="Label" parent="VBox/Panel/VBox"]
+layout_mode = 2
+theme = ExtResource("2_ynn1b")
+theme_override_font_sizes/font_size = 20
+text = "pricePer"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="totalPrice" type="Label" parent="VBox/Panel/VBox"]
+layout_mode = 2
+theme = ExtResource("2_ynn1b")
+text = "totalPrice"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBox" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="accept" type="Button" parent="VBox/HBox"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2_ynn1b")
+text = "accept"
+
+[node name="decline" type="Button" parent="VBox/HBox"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2_ynn1b")
+text = "decline"
+
+[connection signal="button_up" from="VBox/HBox/accept" to="." method="onAccept"]
+[connection signal="button_up" from="VBox/HBox/decline" to="." method="onDecline"]

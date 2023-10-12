@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://bgxaebxsxnld6"]
+
+[ext_resource type="PackedScene" uid="uid://hglwjs6ywk2v" path="res://src/actors/manager.tscn" id="1_xd6eq"]
+[ext_resource type="PackedScene" uid="uid://casfohoal13ea" path="res://src/actors/player.tscn" id="2_ap8li"]
+[ext_resource type="Script" path="res://src/actors/merchantSpawner.gd" id="2_ewgl0"]
+[ext_resource type="PackedScene" uid="uid://c1qqnox4y686y" path="res://src/actors/bgmPlayer.tscn" id="4_ma1et"]
+[ext_resource type="Script" path="res://src/actors/bgmPlayer.gd" id="5_jiq2v"]
+
+[node name="main" type="Node2D"]
+
+[node name="Manager" parent="." instance=ExtResource("1_xd6eq")]
+
+[node name="Merchants" type="Node" parent="."]
+script = ExtResource("2_ewgl0")
+
+[node name="Players" type="Node" parent="."]
+
+[node name="Player" parent="Players" instance=ExtResource("2_ap8li")]
+
+[node name="bgmPlayer" parent="." instance=ExtResource("4_ma1et")]
+script = ExtResource("5_jiq2v")
