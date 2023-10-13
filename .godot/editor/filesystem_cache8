@@ -1,238 +1,254 @@
-2a60927148abd1d33b818b535e306557
-::res://::1688919629
-export_presets.cfg::TextFile::-1::1688918777::0::1::::<><>::
-::res://src/::1688886777
-gsm.svg::CompressedTexture2D::5778522115763981024::1688882064::1688886777::1::::<><>::
-itemLookUp.txt::TextFile::-1::1688885998::0::1::::<><>::
-::res://src/actors/::1688919796
-dayController.gd::GDScript::-1::1688887920::0::1::::<>Node<>::
-dayController.tscn::PackedScene::3495468799351008124::1688919796::0::1::::<><>::res://src/actors/dayController.gd<>uid://droqp0ltmdfjd<>uid://b220mertofhro
-inventoryBox.gd::GDScript::-1::1688879036::0::1::::<>Control<>::
-inventoryBox.tscn::PackedScene::622445216523614441::1688882267::0::1::::<><>::uid://rahq5j862i2w<>res://src/actors/inventoryBox.gd
-Item.gd::GDScript::-1::1688877581::0::1::::Item<>Node<>::
-manager.tscn::PackedScene::504415848335002339::1688882267::0::1::::<><>::res://src/actors/ManagerController.gd<>uid://droqp0ltmdfjd
-ManagerController.gd::GDScript::-1::1688874194::0::1::::<>PersonController<>::
-marketSell.gd::GDScript::-1::1688881637::0::1::::<>Control<>::
-marketSell.tscn::PackedScene::8941002544293793949::1688882267::0::1::::<><>::res://src/actors/marketSell.gd<>uid://rahq5j862i2w
-merchant.tscn::PackedScene::-1::1688882267::0::1::::<><>::
-MerchantController.gd::GDScript::-1::1688878973::0::1::::MerchantController<>PersonController<>::
-merchantSwitch.gd::GDScript::-1::1688878854::0::1::::<>Button<>::
-merchantSwitch.tscn::PackedScene::5244339030490391346::1688882267::0::1::::<><>::res://src/actors/merchantSwitch.gd
-offer.gd::GDScript::-1::1688873358::0::1::::<>Control<>::
-offer.tscn::PackedScene::2190983330020812871::1688919173::0::1::::<><>::res://src/actors/offer.gd<>uid://droqp0ltmdfjd
-PersonController.gd::GDScript::-1::1688881695::0::1::::PersonController<>Node2D<>::
-player.tscn::PackedScene::4810329142344245880::1688847086::0::1::::<><>::res://src/actors/PlayerController.gd
-PlayerController.gd::GDScript::-1::1688873566::0::1::::PlayerController<>PersonController<>::
-typeData.gd::GDScript::-1::1688919796::0::1::::<>Node<>::
-::res://src/fonts/::1688791127
-IndieFlower-Regular.ttf::FontFile::7657823665611593049::1688780814::1688791127::1::::<><>::
-::res://src/scenes/::1688919173
-main.tscn::PackedScene::2855041665943238665::1688919173::0::1::::<><>::uid://hglwjs6ywk2v<>uid://casfohoal13ea<>res://src/scenes/merchantSpawner.gd
-merchantSpawner.gd::GDScript::-1::1688859408::0::1::::<>Node<>::
-::res://src/sprites/::1688886868
-skyBackground.png::CompressedTexture2D::4338797252862872340::1688886868::1688886868::1::::<><>::
-::res://src/sprites/items/::1688886598
-::res://src/sprites/items/animal/::1688886155
-ant.png::CompressedTexture2D::4347474923442286396::1688872421::1688872444::1::::<><>::
-beetle.png::CompressedTexture2D::8422697179055695743::1688872421::1688872444::1::::<><>::
-caterpillar.png::CompressedTexture2D::29213424398015949::1688872421::1688872444::1::::<><>::
-fern butterfly.png::CompressedTexture2D::2298709343864042737::1688872421::1688872444::1::::<><>::
-fly.png::CompressedTexture2D::7564589845107713283::1688872421::1688872444::1::::<><>::
-honeybee.png::CompressedTexture2D::4666364319497335906::1688872421::1688872444::1::::<><>::
-leech.png::CompressedTexture2D::4591062645088749124::1688872421::1688872444::1::::<><>::
-monarch butterfly.png::CompressedTexture2D::7294925264081981754::1688872421::1688872444::1::::<><>::
-praying mantis.png::CompressedTexture2D::9018373827847241859::1688872421::1688872444::1::::<><>::
-rabbit.png::CompressedTexture2D::7399899537051655834::1688872421::1688872444::1::::<><>::
-red squirrel.png::CompressedTexture2D::5811114207801722911::1688872421::1688872444::1::::<><>::
-spider.png::CompressedTexture2D::972087241630203005::1688872421::1688872444::1::::<><>::
-squirrel.png::CompressedTexture2D::4810043235057138386::1688872421::1688872444::1::::<><>::
-stickbug.png::CompressedTexture2D::6785384839620813775::1688872421::1688872444::1::::<><>::
-twilight butterfly.png::CompressedTexture2D::7155279796605109142::1688872421::1688872444::1::::<><>::
-wasp.png::CompressedTexture2D::2679691250299044536::1688872421::1688872444::1::::<><>::
-worm.png::CompressedTexture2D::4220171950039876495::1688872421::1688872444::1::::<><>::
-::res://src/sprites/items/craft/::1688886608
-birch wood.png::CompressedTexture2D::7047825080178165940::1688872421::1688872444::1::::<><>::
-bottle.png::CompressedTexture2D::5177389103939383431::1688872421::1688872444::1::::<><>::
-bucket.png::CompressedTexture2D::60836547313053919::1688872421::1688872444::1::::<><>::
-cauldron.png::CompressedTexture2D::4433552704295124416::1688872421::1688885854::1::::<><>::
-chain.png::CompressedTexture2D::1898216937784751836::1688872421::1688872444::1::::<><>::
-chisel.png::CompressedTexture2D::3941563705740394624::1688872421::1688872444::1::::<><>::
-chrysanthemum.png::CompressedTexture2D::2626850388364574364::1688872421::1688885854::1::::<><>::
-daisy.png::CompressedTexture2D::270118616228530081::1688872421::1688885854::1::::<><>::
-dead leaf.png::CompressedTexture2D::1283936975327224326::1688872421::1688885854::1::::<><>::
-dry leaf.png::CompressedTexture2D::7413662520416009600::1688872421::1688885854::1::::<><>::
-feather.png::CompressedTexture2D::513688240156727921::1688872421::1688885854::1::::<><>::
-glass.png::CompressedTexture2D::245060551760472300::1688872421::1688872444::1::::<><>::
-grass.png::CompressedTexture2D::6322348486347843657::1688872421::1688885854::1::::<><>::
-hammer.png::CompressedTexture2D::1911405150076363700::1688872421::1688872444::1::::<><>::
-hatchet.png::CompressedTexture2D::6093052912158868482::1688872421::1688885854::1::::<><>::
-hay.png::CompressedTexture2D::7870961311279174887::1688872421::1688885854::1::::<><>::
-ink.png::CompressedTexture2D::3312705217397514774::1688872421::1688872444::1::::<><>::
-labelled bottle.png::CompressedTexture2D::6033381125985168639::1688872421::1688872444::1::::<><>::
-leaf.png::CompressedTexture2D::263273791479430094::1688872421::1688885854::1::::<><>::
-leather.png::CompressedTexture2D::6840995676415868189::1688872421::1688872444::1::::<><>::
-magic leaf.png::CompressedTexture2D::7445627806065320467::1688872421::1688885854::1::::<><>::
-mortar and pestle.png::CompressedTexture2D::1145656211203167909::1688872421::1688872444::1::::<><>::
-nail.png::CompressedTexture2D::1433629995781313632::1688872421::1688872444::1::::<><>::
-needle.png::CompressedTexture2D::1642832519011194013::1688872421::1688872444::1::::<><>::
-paper.png::CompressedTexture2D::3374971948438185963::1688872421::1688872444::1::::<><>::
-phoenix flower.png::CompressedTexture2D::5803750259828199172::1688872421::1688885854::1::::<><>::
-rose.png::CompressedTexture2D::6648752324268924925::1688872421::1688885854::1::::<><>::
-saw.png::CompressedTexture2D::8203802642375057339::1688872421::1688872444::1::::<><>::
-stick.png::CompressedTexture2D::2290934131323506088::1688872421::1688872444::1::::<><>::
-sunflower.png::CompressedTexture2D::1201896409595728630::1688872421::1688885854::1::::<><>::
-wood.png::CompressedTexture2D::8383395386148044730::1688872421::1688872444::1::::<><>::
-::res://src/sprites/items/farming/::1688886599
-acorn.png::CompressedTexture2D::1356768210942988583::1688872421::1688872444::1::::<><>::
-apple.png::CompressedTexture2D::1256178417195226657::1688872421::1688872444::1::::<><>::
-avocado.png::CompressedTexture2D::8966822668415125350::1688872421::1688872444::1::::<><>::
-banana.png::CompressedTexture2D::6983660824035535478::1688872421::1688872444::1::::<><>::
-blackberries.png::CompressedTexture2D::8466742751199280236::1688872421::1688872444::1::::<><>::
-blood orange.png::CompressedTexture2D::1296477110684755422::1688872421::1688872444::1::::<><>::
-blueberry.png::CompressedTexture2D::5965208313913369743::1688872421::1688872444::1::::<><>::
-brocolli.png::CompressedTexture2D::1829765975653713556::1688872421::1688872444::1::::<><>::
-brown egg.png::CompressedTexture2D::5607436961274742222::1688872421::1688872444::1::::<><>::
-carrot.png::CompressedTexture2D::8792499763572748473::1688872421::1688872444::1::::<><>::
-cheese.png::CompressedTexture2D::696048537873764423::1688872421::1688872444::1::::<><>::
-cherries.png::CompressedTexture2D::4595521692012783134::1688872421::1688872444::1::::<><>::
-coffee bean.png::CompressedTexture2D::3969551527269830815::1688872421::1688872444::1::::<><>::
-corn.png::CompressedTexture2D::5213266746462814598::1688872421::1688872444::1::::<><>::
-dragon fruit.png::CompressedTexture2D::2603219629989379885::1688872421::1688872444::1::::<><>::
-eggplant.png::CompressedTexture2D::3360058652497166768::1688872421::1688872444::1::::<><>::
-green apple.png::CompressedTexture2D::7110175406432354405::1688872421::1688872444::1::::<><>::
-green bean.png::CompressedTexture2D::3980730310528309509::1688872421::1688885854::1::::<><>::
-green grapes.png::CompressedTexture2D::8673543900719318850::1688872421::1688872444::1::::<><>::
-green pepper.png::CompressedTexture2D::7389424275752837016::1688872421::1688872444::1::::<><>::
-lemon.png::CompressedTexture2D::5506866701123612464::1688872421::1688872444::1::::<><>::
-lime.png::CompressedTexture2D::64779170326832761::1688872421::1688872444::1::::<><>::
-milk.png::CompressedTexture2D::4991550402931376400::1688872421::1688872444::1::::<><>::
-onion.png::CompressedTexture2D::8884263592812474254::1688872421::1688872444::1::::<><>::
-orange.png::CompressedTexture2D::2072875450626533898::1688872421::1688872444::1::::<><>::
-peach.png::CompressedTexture2D::2206611593512917573::1688872421::1688872444::1::::<><>::
-peanut.png::CompressedTexture2D::1116205639243783640::1688872421::1688872444::1::::<><>::
-pear.png::CompressedTexture2D::328626316393573483::1688872421::1688872444::1::::<><>::
-pineapple.png::CompressedTexture2D::6426581592638464766::1688872421::1688872444::1::::<><>::
-pinecone.png::CompressedTexture2D::1452324442708081271::1688872421::1688885856::1::::<><>::
-plum.png::CompressedTexture2D::5139556851397073576::1688872421::1688872444::1::::<><>::
-pumpkin.png::CompressedTexture2D::7507113124515665776::1688872421::1688872444::1::::<><>::
-purple grapes.png::CompressedTexture2D::6912587016709702971::1688872421::1688872444::1::::<><>::
-radish.png::CompressedTexture2D::1930630700330634092::1688872421::1688872444::1::::<><>::
-raspberry.png::CompressedTexture2D::7999922831112001541::1688872421::1688872444::1::::<><>::
-red pepper.png::CompressedTexture2D::127320062418863230::1688872421::1688872444::1::::<><>::
-scythe.png::CompressedTexture2D::8945880123809851067::1688872421::1688885884::1::::<><>::
-shears.png::CompressedTexture2D::4923332309909704691::1688872421::1688885884::1::::<><>::
-strawberry.png::CompressedTexture2D::6224156605122511865::1688872421::1688872444::1::::<><>::
-tomato.png::CompressedTexture2D::7817889530034001981::1688872421::1688872444::1::::<><>::
-watermelon.png::CompressedTexture2D::8187783581612083468::1688872421::1688872444::1::::<><>::
-white egg.png::CompressedTexture2D::1549480776279928479::1688872421::1688872444::1::::<><>::
-yellow pepper.png::CompressedTexture2D::73287423374605866::1688872421::1688872444::1::::<><>::
-::res://src/sprites/items/fish/::1688886206
-astral jellyfish.png::CompressedTexture2D::3992153800122152289::1688872421::1688872444::1::::<><>::
-black seahorse.png::CompressedTexture2D::1356755570948177907::1688872421::1688872444::1::::<><>::
-blue jellyfish.png::CompressedTexture2D::8256680491999495700::1688872421::1688872444::1::::<><>::
-clownfish.png::CompressedTexture2D::484821534329378558::1688872421::1688872444::1::::<><>::
-coral jellyfish.png::CompressedTexture2D::2715066170773352408::1688872421::1688872444::1::::<><>::
-crab.png::CompressedTexture2D::7416974308948767673::1688872421::1688872444::1::::<><>::
-lava jellyfish.png::CompressedTexture2D::7882524481278609619::1688872421::1688872444::1::::<><>::
-lobster.png::CompressedTexture2D::1599976315079964664::1688872421::1688872444::1::::<><>::
-mushroom jellyfish.png::CompressedTexture2D::1369960835138898933::1688872421::1688872444::1::::<><>::
-octopus.png::CompressedTexture2D::7763661873601355109::1688872421::1688872444::1::::<><>::
-pink jellyfish.png::CompressedTexture2D::1359371732339070664::1688872421::1688872444::1::::<><>::
-rainbow jellyfish.png::CompressedTexture2D::3022120186651525797::1688872421::1688872444::1::::<><>::
-rainbow seahorse.png::CompressedTexture2D::7129539607284570944::1688872421::1688872444::1::::<><>::
-salmon.png::CompressedTexture2D::3570863081789208558::1688872421::1688872444::1::::<><>::
-shrimp.png::CompressedTexture2D::4064943510434726645::1688872421::1688872444::1::::<><>::
-slime jellyfish.png::CompressedTexture2D::4101793372110194710::1688872421::1688872444::1::::<><>::
-snapper.png::CompressedTexture2D::6160170534247700131::1688872421::1688872444::1::::<><>::
-spider crab.png::CompressedTexture2D::3092258329506074327::1688872421::1688872444::1::::<><>::
-starfish.png::CompressedTexture2D::940504452026962619::1688872421::1688872444::1::::<><>::
-surgeon fish.png::CompressedTexture2D::9165061751401930505::1688872421::1688872444::1::::<><>::
-trout.png::CompressedTexture2D::5274271374102149401::1688872421::1688872444::1::::<><>::
-urchin.png::CompressedTexture2D::5552717704502113085::1688872421::1688872444::1::::<><>::
-vampire squid.png::CompressedTexture2D::4675760518622379457::1688872421::1688872444::1::::<><>::
-void octopus.png::CompressedTexture2D::1933759837404004254::1688872421::1688872444::1::::<><>::
-::res://src/sprites/items/food/::1688886777
-apple juice.png::CompressedTexture2D::5155053219228281167::1688872421::1688872444::1::::<><>::
-banana juice.png::CompressedTexture2D::6317419396816732073::1688872421::1688872444::1::::<><>::
-black juice.png::CompressedTexture2D::4088647545460316206::1688872421::1688872444::1::::<><>::
-blueberry juice.png::CompressedTexture2D::5468649528478117558::1688872421::1688872444::1::::<><>::
-burnt steak.png::CompressedTexture2D::8466763486464647349::1688872421::1688872444::1::::<><>::
-cooked drumstick.png::CompressedTexture2D::3063721510905109113::1688872421::1688872444::1::::<><>::
-cooked rice.png::CompressedTexture2D::114721225276422130::1688872421::1688872444::1::::<><>::
-cooked shrimp.png::CompressedTexture2D::4671658241646823755::1688872421::1688872444::1::::<><>::
-juice.png::CompressedTexture2D::3967528763014966501::1688872421::1688872444::1::::<><>::
-orange juice.png::CompressedTexture2D::203655263840997498::1688872421::1688885856::1::::<><>::
-pale juice.png::CompressedTexture2D::5872721688176337123::1688872421::1688885856::1::::<><>::
-peach juice.png::CompressedTexture2D::8896038659213132771::1688872421::1688872444::1::::<><>::
-plum juice.png::CompressedTexture2D::3565963743574404305::1688872421::1688886777::1::::<><>::
-raw drumstick.png::CompressedTexture2D::4077895518122025183::1688872421::1688886777::1::::<><>::
-raw meat.png::CompressedTexture2D::9203434893226466367::1688872421::1688872444::1::::<><>::
-royal juice.png::CompressedTexture2D::2959400437983585397::1688872421::1688886777::1::::<><>::
-salad.png::CompressedTexture2D::5313006767534163744::1688872421::1688872444::1::::<><>::
-spaghetti.png::CompressedTexture2D::2593160967937598332::1688872421::1688885856::1::::<><>::
-steak.png::CompressedTexture2D::1067093663633340041::1688872421::1688885856::1::::<><>::
-stew.png::CompressedTexture2D::8570152303935888307::1688872421::1688885856::1::::<><>::
-::res://src/sprites/items/magic/::1688886777
-azure blaze.png::CompressedTexture2D::4241992797380221443::1688872421::1688885856::1::::<><>::
-blue drop.png::CompressedTexture2D::2933222397868232179::1688872421::1688885856::1::::<><>::
-blue slime.png::CompressedTexture2D::2517404798350975303::1688872421::1688885856::1::::<><>::
-blue sludge.png::CompressedTexture2D::9067368827425021212::1688872421::1688885856::1::::<><>::
-bone.png::CompressedTexture2D::3576365961809744071::1688872421::1688885855::1::::<><>::
-demon eye.png::CompressedTexture2D::5543318793636129809::1688872421::1688885855::1::::<><>::
-green drop.png::CompressedTexture2D::7212025115410271943::1688872421::1688885855::1::::<><>::
-green powder.png::CompressedTexture2D::3463432390470856268::1688872421::1688885855::1::::<><>::
-green slime.png::CompressedTexture2D::7929526854632136707::1688872421::1688885855::1::::<><>::
-green sludge.png::CompressedTexture2D::8062724299488069068::1688872421::1688885855::1::::<><>::
-legendary eye.png::CompressedTexture2D::6185890060792421293::1688872421::1688885855::1::::<><>::
-legendary feather.png::CompressedTexture2D::1544831804690240703::1688872421::1688885855::1::::<><>::
-magic blaze.png::CompressedTexture2D::8844930942116736056::1688872421::1688885855::1::::<><>::
-monster eye.png::CompressedTexture2D::839289949386097992::1688872421::1688885855::1::::<><>::
-pink drop.png::CompressedTexture2D::2234174061734714224::1688872421::1688886777::1::::<><>::
-pink slime.png::CompressedTexture2D::8580159158602376155::1688872421::1688885855::1::::<><>::
-pink sludge.png::CompressedTexture2D::2334861214874951883::1688872421::1688885855::1::::<><>::
-red drop.png::CompressedTexture2D::5113474837514096588::1688872421::1688885855::1::::<><>::
-red slime.png::CompressedTexture2D::4677911649711260496::1688872421::1688885855::1::::<><>::
-red sludge.png::CompressedTexture2D::2028211967788474158::1688872421::1688885855::1::::<><>::
-scale.png::CompressedTexture2D::3558363782724483246::1688872421::1688885855::1::::<><>::
-scarlet blaze.png::CompressedTexture2D::1696584314514539704::1688872421::1688885855::1::::<><>::
-skull.png::CompressedTexture2D::7982107375016887238::1688872421::1688885855::1::::<><>::
-stinger.png::CompressedTexture2D::3286618859759747893::1688872421::1688885855::1::::<><>::
-tail.png::CompressedTexture2D::7022778831374700129::1688872421::1688885855::1::::<><>::
-void blaze.png::CompressedTexture2D::1003492045143872750::1688872421::1688885855::1::::<><>::
-white powder.png::CompressedTexture2D::2479527838138061426::1688872421::1688886777::1::::<><>::
-yellow powder.png::CompressedTexture2D::4641883551368314246::1688872421::1688885855::1::::<><>::
-::res://src/sprites/items/ore/::1688886250
-copper ingot.png::CompressedTexture2D::1349734751924166768::1688872421::1688885855::1::::<><>::
-copper ore.png::CompressedTexture2D::2311398880148292023::1688872421::1688885855::1::::<><>::
-dirt.png::CompressedTexture2D::7827058866452241831::1688872421::1688885855::1::::<><>::
-emerald.png::CompressedTexture2D::1428877195566349557::1688872421::1688886057::1::::<><>::
-gold ingot.png::CompressedTexture2D::7136517121351426310::1688872421::1688885855::1::::<><>::
-gold ore.png::CompressedTexture2D::6019164037156521787::1688872421::1688885855::1::::<><>::
-iron ingot.png::CompressedTexture2D::6606202413698149036::1688872421::1688885855::1::::<><>::
-iron ore.png::CompressedTexture2D::2127353195373316689::1688872421::1688885855::1::::<><>::
-pickaxe.png::CompressedTexture2D::2374778843101566656::1688872421::1688886057::1::::<><>::
-ruby.png::CompressedTexture2D::546576135875674169::1688872421::1688885855::1::::<><>::
-sand.png::CompressedTexture2D::5760354454983069721::1688872421::1688885856::1::::<><>::
-sapphire.png::CompressedTexture2D::2732895252904277359::1688872421::1688885856::1::::<><>::
-stone.png::CompressedTexture2D::8650809087265399411::1688872421::1688885856::1::::<><>::
-::res://src/sprites/items/treasure/::1688886057
-chalice.png::CompressedTexture2D::8788760832635305859::1688872421::1688886057::1::::<><>::
-charm.png::CompressedTexture2D::4395383907639811009::1688872421::1688886057::1::::<><>::
-copper coin.png::CompressedTexture2D::7650470948436021459::1688872421::1688886057::1::::<><>::
-crown.png::CompressedTexture2D::3614659222213043402::1688872421::1688886057::1::::<><>::
-earrings.png::CompressedTexture2D::3567528862295627963::1688872421::1688886057::1::::<><>::
-gold coin.png::CompressedTexture2D::8672565186429404860::1688872421::1688886057::1::::<><>::
-golden apple.png::CompressedTexture2D::2537653842022142984::1688872421::1688886057::1::::<><>::
-golden feather.png::CompressedTexture2D::6623654903916316047::1688872421::1688886057::1::::<><>::
-golden squirrel.png::CompressedTexture2D::5786821145631000174::1688872421::1688886057::1::::<><>::
-locket.png::CompressedTexture2D::3233834706343547813::1688872421::1688886057::1::::<><>::
-lute.png::CompressedTexture2D::3510795318168024473::1688872421::1688886057::1::::<><>::
-necklace.png::CompressedTexture2D::1810149469166771173::1688872421::1688886057::1::::<><>::
-relic.png::CompressedTexture2D::3130448248403962047::1688872421::1688886057::1::::<><>::
-ring.png::CompressedTexture2D::7246691433891335955::1688872421::1688886057::1::::<><>::
-silver coin.png::CompressedTexture2D::7361642862497503083::1688872421::1688886057::1::::<><>::
-tiara.png::CompressedTexture2D::5069295597289059679::1688872421::1688886057::1::::<><>::
-::res://src/themes/::1688886785
-invTheme.tres::Theme::1193665524644004980::1688886785::0::1::::<><>::uid://dhdrib6duhq86
-merchant.tres::Theme::-1::1688878830::0::1::::<><>::
-offerTheme.tres::Theme::8382373271231562689::1688785926::0::1::::<><>::uid://dhdrib6duhq86
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1697174148
+notes.txt::TextFile::-1::1697170941::0::1::::<><>::
+::res://graphics/::1697170941
+button.png::CompressedTexture2D::2689825401781398360::1697170941::1697174150::1::::<><>::
+gsm.svg::CompressedTexture2D::5778522115763981024::1697170941::1697174150::1::::<><>::
+icon.png::CompressedTexture2D::1078409962533272091::1697170941::1697174150::1::::<><>::
+icon.svg::CompressedTexture2D::4741649663803733636::1697170941::1697174150::1::::<><>::
+white.png::CompressedTexture2D::1968430924706973469::1697170941::1697174150::1::::<><>::
+::res://src/::1697170941
+itemLookUp.json::JSON::-1::1697170941::0::1::::<><>::
+::res://src/actors/::1697170941
+bgmPlayer.gd::GDScript::-1::1697170941::0::1::::<>AudioStreamPlayer<>::
+bgmPlayer.tscn::PackedScene::6631776805453388178::1697170941::0::1::::<><>::
+dayController.gd::GDScript::-1::1697170941::0::1::::<>Node<>::
+dayController.tscn::PackedScene::3495468799351008124::1697170941::0::1::::<><>::res://src/actors/dayController.gd<>uid://droqp0ltmdfjd::::res://src/themes/offerTheme.tres
+inventoryBox.gd::GDScript::-1::1697170941::0::1::::<>Control<>::
+inventoryBox.tscn::PackedScene::622445216523614441::1697170941::0::1::::<><>::uid://rahq5j862i2w::::res://src/themes/invTheme.tres<>res://src/actors/inventoryBox.gd
+Item.gd::GDScript::-1::1697170941::0::1::::Item<>Node<>::
+manager.tscn::PackedScene::504415848335002339::1697170941::0::1::::<><>::res://src/actors/ManagerController.gd<>uid://droqp0ltmdfjd::::res://src/themes/offerTheme.tres
+ManagerController.gd::GDScript::-1::1697170941::0::1::::<>PersonController<>::
+marketSell.gd::GDScript::-1::1697170941::0::1::::<>Control<>::
+marketSell.tscn::PackedScene::8941002544293793949::1697170941::0::1::::<><>::res://src/actors/marketSell.gd<>uid://rahq5j862i2w::::res://src/themes/invTheme.tres<>uid://dgogs2rarh3g1::::res://src/themes/merchant.tres
+merchant.tscn::PackedScene::2862380672712884067::1697170941::0::1::::<><>::res://src/actors/MerchantController.gd
+MerchantController.gd::GDScript::-1::1697170941::0::1::::MerchantController<>PersonController<>::
+merchantSpawner.gd::GDScript::-1::1697170941::0::1::::<>Node<>::
+merchantSwitch.gd::GDScript::-1::1697170941::0::1::::<>Button<>::
+merchantSwitch.tscn::PackedScene::5244339030490391346::1697170941::0::1::::<><>::uid://dgogs2rarh3g1::::res://src/themes/merchant.tres<>res://src/actors/merchantSwitch.gd
+offer.gd::GDScript::-1::1697170941::0::1::::<>Control<>::
+offer.tscn::PackedScene::2190983330020812871::1697170941::0::1::::<><>::res://src/actors/offer.gd<>uid://droqp0ltmdfjd::::res://src/themes/offerTheme.tres
+PersonController.gd::GDScript::-1::1697170941::0::1::::PersonController<>Node2D<>::
+player.tscn::PackedScene::4810329142344245880::1697170941::0::1::::<><>::res://src/actors/PlayerController.gd
+PlayerController.gd::GDScript::-1::1697170941::0::1::::PlayerController<>PersonController<>::
+typeData.gd::GDScript::-1::1697170941::0::1::::<>Node<>::
+::res://src/audio/::1697170941
+::res://src/audio/music/::1697170941
+Forever Lost.wav::AudioStreamWAV::4695971091269433310::1697170941::1697174151::1::::<><>::
+Lost in the Dessert.wav::AudioStreamWAV::930488648364890843::1697170941::1697174151::1::::<><>::
+Nostalgic.wav::AudioStreamWAV::352216734183413486::1697170941::1697174150::1::::<><>::
+Warmth.wav::AudioStreamWAV::8210473976058832618::1697170941::1697174151::1::::<><>::
+::res://src/fonts/::1697170941
+exepixelperfect.medium.ttf::FontFile::1756959046258330638::1697170941::1697174150::1::::<><>::
+IndieFlower-Regular.ttf::FontFile::7657823665611593049::1697170941::1697170941::1::::<><>::
+yoster-island.regular.ttf::FontFile::8513227022921345574::1697170941::1697174150::1::::<><>::
+::res://src/scenes/::1697170941
+main.tscn::PackedScene::2855041665943238665::1697170941::0::1::::<><>::uid://hglwjs6ywk2v::::res://src/actors/manager.tscn<>uid://casfohoal13ea::::res://src/actors/player.tscn<>res://src/actors/merchantSpawner.gd<>uid://c1qqnox4y686y::::res://src/actors/bgmPlayer.tscn<>res://src/actors/bgmPlayer.gd
+::res://src/sprites/::1697170941
+dayGradientAdjusted.png::Image::2524896945211523464::1697170941::1697174150::1::::<><>::
+skyBackground.png::CompressedTexture2D::4338797252862872340::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/::1697170941
+::res://src/sprites/items/animal/::1697170941
+ant.png::CompressedTexture2D::3104021401975091111::1697170941::1697170941::1::::<><>::
+beetle.png::CompressedTexture2D::8064043345288239827::1697170941::1697170941::1::::<><>::
+caterpillar.png::CompressedTexture2D::8956487240164376964::1697170941::1697170941::1::::<><>::
+fern butterfly.png::CompressedTexture2D::2562332792652179279::1697170941::1697170941::1::::<><>::
+fly.png::CompressedTexture2D::8517309753480783695::1697170941::1697170941::1::::<><>::
+honeybee.png::CompressedTexture2D::1365690347065374127::1697170941::1697170941::1::::<><>::
+leech.png::CompressedTexture2D::8387362866652212045::1697170941::1697170941::1::::<><>::
+monarch butterfly.png::CompressedTexture2D::6669619598904829459::1697170941::1697170941::1::::<><>::
+praying mantis.png::CompressedTexture2D::7578579656745748763::1697170941::1697170941::1::::<><>::
+rabbit.png::CompressedTexture2D::7574342260044129126::1697170941::1697170941::1::::<><>::
+red squirrel.png::CompressedTexture2D::353875429234824047::1697170941::1697170941::1::::<><>::
+spider.png::CompressedTexture2D::8847894514374652456::1697170941::1697170941::1::::<><>::
+squirrel.png::CompressedTexture2D::5334481974023541973::1697170941::1697170941::1::::<><>::
+stickbug.png::CompressedTexture2D::4155393792681221713::1697170941::1697170941::1::::<><>::
+twilight butterfly.png::CompressedTexture2D::8846865093449286756::1697170941::1697170941::1::::<><>::
+wasp.png::CompressedTexture2D::5493555976008948277::1697170941::1697170941::1::::<><>::
+worm.png::CompressedTexture2D::4995835252794658315::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/craft/::1697170941
+birch wood.png::CompressedTexture2D::1490911281797716311::1697170941::1697170941::1::::<><>::
+bottle.png::CompressedTexture2D::3416894516351186049::1697170941::1697170941::1::::<><>::
+bucket.png::CompressedTexture2D::1497996802933077034::1697170941::1697170941::1::::<><>::
+cauldron.png::CompressedTexture2D::4433552704295124416::1697170941::1697170941::1::::<><>::
+chain.png::CompressedTexture2D::6183889190794378958::1697170941::1697170941::1::::<><>::
+chisel.png::CompressedTexture2D::6251404441549707112::1697170941::1697170941::1::::<><>::
+chrysanthemum.png::CompressedTexture2D::2626850388364574364::1697170941::1697170941::1::::<><>::
+daisy.png::CompressedTexture2D::270118616228530081::1697170941::1697170941::1::::<><>::
+dead leaf.png::CompressedTexture2D::1283936975327224326::1697170941::1697170941::1::::<><>::
+dry leaf.png::CompressedTexture2D::7413662520416009600::1697170941::1697170941::1::::<><>::
+feather.png::CompressedTexture2D::513688240156727921::1697170941::1697170941::1::::<><>::
+glass.png::CompressedTexture2D::6557032837002312180::1697170941::1697170941::1::::<><>::
+grass.png::CompressedTexture2D::6322348486347843657::1697170941::1697170941::1::::<><>::
+hammer.png::CompressedTexture2D::1033587196016948693::1697170941::1697170941::1::::<><>::
+hatchet.png::CompressedTexture2D::6093052912158868482::1697170941::1697170941::1::::<><>::
+hay.png::CompressedTexture2D::7870961311279174887::1697170941::1697170941::1::::<><>::
+ink.png::CompressedTexture2D::7873142898498515393::1697170941::1697170941::1::::<><>::
+labelled bottle.png::CompressedTexture2D::1449659673011872171::1697170941::1697170941::1::::<><>::
+leaf.png::CompressedTexture2D::263273791479430094::1697170941::1697170941::1::::<><>::
+leather.png::CompressedTexture2D::3597599747859391672::1697170941::1697170941::1::::<><>::
+magic leaf.png::CompressedTexture2D::7445627806065320467::1697170941::1697170941::1::::<><>::
+mortar and pestle.png::CompressedTexture2D::437579917816464398::1697170941::1697170941::1::::<><>::
+nail.png::CompressedTexture2D::7579996323125318518::1697170941::1697170941::1::::<><>::
+needle.png::CompressedTexture2D::7179559349880910796::1697170941::1697170941::1::::<><>::
+paper.png::CompressedTexture2D::3618108945486791873::1697170941::1697170941::1::::<><>::
+phoenix flower.png::CompressedTexture2D::5803750259828199172::1697170941::1697170941::1::::<><>::
+rose.png::CompressedTexture2D::6648752324268924925::1697170941::1697170941::1::::<><>::
+saw.png::CompressedTexture2D::6087444837455397031::1697170941::1697170941::1::::<><>::
+stick.png::CompressedTexture2D::3459458980012212263::1697170941::1697170941::1::::<><>::
+sunflower.png::CompressedTexture2D::1201896409595728630::1697170941::1697170941::1::::<><>::
+wood.png::CompressedTexture2D::5770603863612485926::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/farming/::1697170941
+acorn.png::CompressedTexture2D::3457523853030465639::1697170941::1697170941::1::::<><>::
+apple.png::CompressedTexture2D::5854425649409374155::1697170941::1697170941::1::::<><>::
+avocado.png::CompressedTexture2D::2143262403122662773::1697170941::1697170941::1::::<><>::
+banana.png::CompressedTexture2D::1419941020522992077::1697170941::1697170941::1::::<><>::
+blackberries.png::CompressedTexture2D::6105972164731040807::1697170941::1697170941::1::::<><>::
+blood orange.png::CompressedTexture2D::2147902876229022503::1697170941::1697170941::1::::<><>::
+blueberry.png::CompressedTexture2D::8096654172609287477::1697170941::1697170941::1::::<><>::
+brocolli.png::CompressedTexture2D::3871934623329159462::1697170941::1697170941::1::::<><>::
+brown egg.png::CompressedTexture2D::3724318107080561336::1697170941::1697170941::1::::<><>::
+carrot.png::CompressedTexture2D::866183567016210910::1697170941::1697170941::1::::<><>::
+cheese.png::CompressedTexture2D::2730434606751655644::1697170941::1697170941::1::::<><>::
+cherries.png::CompressedTexture2D::4932496773425122577::1697170941::1697170941::1::::<><>::
+coffee bean.png::CompressedTexture2D::8661951111563387124::1697170941::1697170941::1::::<><>::
+corn.png::CompressedTexture2D::9173203834435721129::1697170941::1697170941::1::::<><>::
+dragon fruit.png::CompressedTexture2D::655785444544816747::1697170941::1697170941::1::::<><>::
+eggplant.png::CompressedTexture2D::4321861882401863194::1697170941::1697170941::1::::<><>::
+green apple.png::CompressedTexture2D::3683969254317366303::1697170941::1697170941::1::::<><>::
+green bean.png::CompressedTexture2D::3980730310528309509::1697170941::1697170941::1::::<><>::
+green grapes.png::CompressedTexture2D::5310077365538240476::1697170941::1697170941::1::::<><>::
+green pepper.png::CompressedTexture2D::3041529423317645072::1697170941::1697170941::1::::<><>::
+lemon.png::CompressedTexture2D::195495720131074598::1697170941::1697170941::1::::<><>::
+lime.png::CompressedTexture2D::8278939827412085835::1697170941::1697170941::1::::<><>::
+milk.png::CompressedTexture2D::4094051012097930364::1697170941::1697170941::1::::<><>::
+onion.png::CompressedTexture2D::8352316486116098271::1697170941::1697170941::1::::<><>::
+orange.png::CompressedTexture2D::3078401484161312674::1697170941::1697170941::1::::<><>::
+peach.png::CompressedTexture2D::8676059535662603613::1697170941::1697170941::1::::<><>::
+peanut.png::CompressedTexture2D::8709391995677423556::1697170941::1697170941::1::::<><>::
+pear.png::CompressedTexture2D::2043588880687706339::1697170941::1697170941::1::::<><>::
+pineapple.png::CompressedTexture2D::6601851279083072607::1697170941::1697170941::1::::<><>::
+pinecone.png::CompressedTexture2D::1452324442708081271::1697170941::1697170941::1::::<><>::
+plum.png::CompressedTexture2D::2755062197424158089::1697170941::1697170941::1::::<><>::
+pumpkin.png::CompressedTexture2D::8713193330290657381::1697170941::1697170941::1::::<><>::
+purple grapes.png::CompressedTexture2D::8437314924815771120::1697170941::1697170941::1::::<><>::
+radish.png::CompressedTexture2D::4418731847424531480::1697170941::1697170941::1::::<><>::
+raspberry.png::CompressedTexture2D::5609719796755547857::1697170941::1697170941::1::::<><>::
+red pepper.png::CompressedTexture2D::6561791611585160661::1697170941::1697170941::1::::<><>::
+scythe.png::CompressedTexture2D::8945880123809851067::1697170941::1697170941::1::::<><>::
+shears.png::CompressedTexture2D::4923332309909704691::1697170941::1697170941::1::::<><>::
+strawberry.png::CompressedTexture2D::218089630426179501::1697170941::1697170941::1::::<><>::
+tomato.png::CompressedTexture2D::5482160607711785249::1697170941::1697170941::1::::<><>::
+watermelon.png::CompressedTexture2D::5549155170870212384::1697170941::1697170941::1::::<><>::
+white egg.png::CompressedTexture2D::7360733682786788255::1697170941::1697170941::1::::<><>::
+yellow pepper.png::CompressedTexture2D::1922116492381040896::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/fish/::1697170941
+astral jellyfish.png::CompressedTexture2D::3992153800122152289::1697170941::1697170941::1::::<><>::
+black seahorse.png::CompressedTexture2D::1356755570948177907::1697170941::1697170941::1::::<><>::
+blue jellyfish.png::CompressedTexture2D::8256680491999495700::1697170941::1697170941::1::::<><>::
+clownfish.png::CompressedTexture2D::484821534329378558::1697170941::1697170941::1::::<><>::
+coral jellyfish.png::CompressedTexture2D::2715066170773352408::1697170941::1697170941::1::::<><>::
+crab.png::CompressedTexture2D::7416974308948767673::1697170941::1697170941::1::::<><>::
+lava jellyfish.png::CompressedTexture2D::7882524481278609619::1697170941::1697170941::1::::<><>::
+lobster.png::CompressedTexture2D::1599976315079964664::1697170941::1697170941::1::::<><>::
+mushroom jellyfish.png::CompressedTexture2D::1369960835138898933::1697170941::1697170941::1::::<><>::
+octopus.png::CompressedTexture2D::7763661873601355109::1697170941::1697170941::1::::<><>::
+pink jellyfish.png::CompressedTexture2D::1359371732339070664::1697170941::1697170941::1::::<><>::
+rainbow jellyfish.png::CompressedTexture2D::3022120186651525797::1697170941::1697170941::1::::<><>::
+rainbow seahorse.png::CompressedTexture2D::7129539607284570944::1697170941::1697170941::1::::<><>::
+salmon.png::CompressedTexture2D::3570863081789208558::1697170941::1697170941::1::::<><>::
+shrimp.png::CompressedTexture2D::4064943510434726645::1697170941::1697170941::1::::<><>::
+slime jellyfish.png::CompressedTexture2D::4101793372110194710::1697170941::1697170941::1::::<><>::
+snapper.png::CompressedTexture2D::6160170534247700131::1697170941::1697170941::1::::<><>::
+spider crab.png::CompressedTexture2D::3092258329506074327::1697170941::1697170941::1::::<><>::
+starfish.png::CompressedTexture2D::940504452026962619::1697170941::1697170941::1::::<><>::
+surgeon fish.png::CompressedTexture2D::9165061751401930505::1697170941::1697170941::1::::<><>::
+trout.png::CompressedTexture2D::5274271374102149401::1697170941::1697170941::1::::<><>::
+urchin.png::CompressedTexture2D::5552717704502113085::1697170941::1697170941::1::::<><>::
+vampire squid.png::CompressedTexture2D::4675760518622379457::1697170941::1697170941::1::::<><>::
+void octopus.png::CompressedTexture2D::1933759837404004254::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/food/::1697170941
+apple juice.png::CompressedTexture2D::5155053219228281167::1697170941::1697170941::1::::<><>::
+banana juice.png::CompressedTexture2D::6317419396816732073::1697170941::1697170941::1::::<><>::
+black juice.png::CompressedTexture2D::4088647545460316206::1697170941::1697170941::1::::<><>::
+blueberry juice.png::CompressedTexture2D::5468649528478117558::1697170941::1697170941::1::::<><>::
+burnt steak.png::CompressedTexture2D::8466763486464647349::1697170941::1697170941::1::::<><>::
+cooked drumstick.png::CompressedTexture2D::3063721510905109113::1697170941::1697170941::1::::<><>::
+cooked rice.png::CompressedTexture2D::114721225276422130::1697170941::1697170941::1::::<><>::
+cooked shrimp.png::CompressedTexture2D::4671658241646823755::1697170941::1697170941::1::::<><>::
+juice.png::CompressedTexture2D::3967528763014966501::1697170941::1697170941::1::::<><>::
+orange juice.png::CompressedTexture2D::203655263840997498::1697170941::1697170941::1::::<><>::
+pale juice.png::CompressedTexture2D::5872721688176337123::1697170941::1697170941::1::::<><>::
+peach juice.png::CompressedTexture2D::8896038659213132771::1697170941::1697170941::1::::<><>::
+plum juice.png::CompressedTexture2D::3565963743574404305::1697170941::1697170941::1::::<><>::
+raw drumstick.png::CompressedTexture2D::4077895518122025183::1697170941::1697170941::1::::<><>::
+raw meat.png::CompressedTexture2D::9203434893226466367::1697170941::1697170941::1::::<><>::
+royal juice.png::CompressedTexture2D::2959400437983585397::1697170941::1697170941::1::::<><>::
+salad.png::CompressedTexture2D::5313006767534163744::1697170941::1697170941::1::::<><>::
+spaghetti.png::CompressedTexture2D::2593160967937598332::1697170941::1697170941::1::::<><>::
+steak.png::CompressedTexture2D::1067093663633340041::1697170941::1697170941::1::::<><>::
+stew.png::CompressedTexture2D::8570152303935888307::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/magic/::1697170941
+azure blaze.png::CompressedTexture2D::4241992797380221443::1697170941::1697170941::1::::<><>::
+blue drop.png::CompressedTexture2D::2933222397868232179::1697170941::1697170941::1::::<><>::
+blue slime.png::CompressedTexture2D::2517404798350975303::1697170941::1697170941::1::::<><>::
+blue sludge.png::CompressedTexture2D::9067368827425021212::1697170941::1697170941::1::::<><>::
+bone.png::CompressedTexture2D::3576365961809744071::1697170941::1697170941::1::::<><>::
+demon eye.png::CompressedTexture2D::5543318793636129809::1697170941::1697170941::1::::<><>::
+green drop.png::CompressedTexture2D::7212025115410271943::1697170941::1697170941::1::::<><>::
+green powder.png::CompressedTexture2D::3463432390470856268::1697170941::1697170941::1::::<><>::
+green slime.png::CompressedTexture2D::7929526854632136707::1697170941::1697170941::1::::<><>::
+green sludge.png::CompressedTexture2D::8062724299488069068::1697170941::1697170941::1::::<><>::
+legendary eye.png::CompressedTexture2D::6185890060792421293::1697170941::1697170941::1::::<><>::
+legendary feather.png::CompressedTexture2D::1544831804690240703::1697170941::1697170941::1::::<><>::
+magic blaze.png::CompressedTexture2D::8844930942116736056::1697170941::1697170941::1::::<><>::
+monster eye.png::CompressedTexture2D::839289949386097992::1697170941::1697170941::1::::<><>::
+pink drop.png::CompressedTexture2D::2234174061734714224::1697170941::1697170941::1::::<><>::
+pink slime.png::CompressedTexture2D::8580159158602376155::1697170941::1697170941::1::::<><>::
+pink sludge.png::CompressedTexture2D::2334861214874951883::1697170941::1697170941::1::::<><>::
+red drop.png::CompressedTexture2D::5113474837514096588::1697170941::1697170941::1::::<><>::
+red slime.png::CompressedTexture2D::4677911649711260496::1697170941::1697170941::1::::<><>::
+red sludge.png::CompressedTexture2D::2028211967788474158::1697170941::1697170941::1::::<><>::
+scale.png::CompressedTexture2D::3558363782724483246::1697170941::1697170941::1::::<><>::
+scarlet blaze.png::CompressedTexture2D::1696584314514539704::1697170941::1697170941::1::::<><>::
+skull.png::CompressedTexture2D::7982107375016887238::1697170941::1697170941::1::::<><>::
+stinger.png::CompressedTexture2D::3286618859759747893::1697170941::1697170941::1::::<><>::
+tail.png::CompressedTexture2D::7022778831374700129::1697170941::1697170941::1::::<><>::
+void blaze.png::CompressedTexture2D::1003492045143872750::1697170941::1697170941::1::::<><>::
+white powder.png::CompressedTexture2D::2479527838138061426::1697170941::1697170941::1::::<><>::
+yellow powder.png::CompressedTexture2D::4641883551368314246::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/ore/::1697170941
+copper ingot.png::CompressedTexture2D::1349734751924166768::1697170941::1697170941::1::::<><>::
+copper ore.png::CompressedTexture2D::2311398880148292023::1697170941::1697170941::1::::<><>::
+dirt.png::CompressedTexture2D::7827058866452241831::1697170941::1697170941::1::::<><>::
+emerald.png::CompressedTexture2D::1428877195566349557::1697170941::1697170941::1::::<><>::
+gold ingot.png::CompressedTexture2D::7136517121351426310::1697170941::1697170941::1::::<><>::
+gold ore.png::CompressedTexture2D::6019164037156521787::1697170941::1697170941::1::::<><>::
+iron ingot.png::CompressedTexture2D::6606202413698149036::1697170941::1697170941::1::::<><>::
+iron ore.png::CompressedTexture2D::2127353195373316689::1697170941::1697170941::1::::<><>::
+pickaxe.png::CompressedTexture2D::2374778843101566656::1697170941::1697170941::1::::<><>::
+ruby.png::CompressedTexture2D::546576135875674169::1697170941::1697170941::1::::<><>::
+sand.png::CompressedTexture2D::5760354454983069721::1697170941::1697170941::1::::<><>::
+sapphire.png::CompressedTexture2D::2732895252904277359::1697170941::1697170941::1::::<><>::
+stone.png::CompressedTexture2D::8650809087265399411::1697170941::1697170941::1::::<><>::
+::res://src/sprites/items/treasure/::1697170941
+chalice.png::CompressedTexture2D::8788760832635305859::1697170941::1697170941::1::::<><>::
+charm.png::CompressedTexture2D::4395383907639811009::1697170941::1697170941::1::::<><>::
+copper coin.png::CompressedTexture2D::7650470948436021459::1697170941::1697170941::1::::<><>::
+crown.png::CompressedTexture2D::3614659222213043402::1697170941::1697170941::1::::<><>::
+earrings.png::CompressedTexture2D::3567528862295627963::1697170941::1697170941::1::::<><>::
+gold coin.png::CompressedTexture2D::8672565186429404860::1697170941::1697170941::1::::<><>::
+golden apple.png::CompressedTexture2D::2537653842022142984::1697170941::1697170941::1::::<><>::
+golden feather.png::CompressedTexture2D::6623654903916316047::1697170941::1697170941::1::::<><>::
+golden squirrel.png::CompressedTexture2D::5786821145631000174::1697170941::1697170941::1::::<><>::
+locket.png::CompressedTexture2D::3233834706343547813::1697170941::1697170941::1::::<><>::
+lute.png::CompressedTexture2D::3510795318168024473::1697170941::1697170941::1::::<><>::
+necklace.png::CompressedTexture2D::1810149469166771173::1697170941::1697170941::1::::<><>::
+relic.png::CompressedTexture2D::3130448248403962047::1697170941::1697170941::1::::<><>::
+ring.png::CompressedTexture2D::7246691433891335955::1697170941::1697170941::1::::<><>::
+silver coin.png::CompressedTexture2D::7361642862497503083::1697170941::1697170941::1::::<><>::
+tiara.png::CompressedTexture2D::5069295597289059679::1697170941::1697170941::1::::<><>::
+::res://src/themes/::1697170941
+invTheme.tres::Theme::1193665524644004980::1697170941::0::1::::<><>::uid://dtj4utxrnqfgw::::res://src/fonts/yoster-island.regular.ttf
+merchant.tres::Theme::7609694292126375646::1697170941::0::1::::<><>::uid://dtj4utxrnqfgw::::res://src/fonts/yoster-island.regular.ttf
+offerTheme.tres::Theme::8382373271231562689::1697170941::0::1::::<><>::uid://dtj4utxrnqfgw::::res://src/fonts/yoster-island.regular.ttf
